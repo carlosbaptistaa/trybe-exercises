@@ -8,17 +8,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Fundamentos do Desenvolvimento Web :white_check_mark:
 
-##### Bloco 1: Introdução - Unix & Shell
+##### Section 1: Introdução - [Unix & Shell](https://github.com/carlosbaptistaa/trybe-exercises/tree/main/01-fundamentos/section-01-unix-bash)
 
 - [ ] 1-1: _Unix & Bash- Part 1_
 - [ ] 1-2: _Unix & Bash- Part 2_
 
-##### Bloco 2: Git & GitHub
+##### Section 2: [Git & GitHub](https://github.com/carlosbaptistaa/trybe-exercises/tree/main/01-fundamentos/section-02-git-e-github)
 
 - [ ] 2-1: _O que é e para que serve?_
 - [ ] 2-2: _Entendendo os comandos_
 
-##### Bloco 3: Introdução à HTML & CSS
+##### Section 3: [Introdução à HTML & CSS](https://github.com/carlosbaptistaa/trybe-exercises/tree/main/01-fundamentos/section-03-introducao-a-html-e-css)
 
 - [ ] 3-1: _HTML & CSS - Estruturas de página_
 - [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
@@ -26,7 +26,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 3-4: _HTML Semântico_
 - [ ] 3-5: _Projeto - Lessons Learned_
 
-##### Bloco 4: Introdução à JavaScript
+##### Section 4: [Introdução à JavaScript](https://github.com/carlosbaptistaa/trybe-exercises/tree/main/01-fundamentos/section-04-introducao-a-javascript)
 
 - [ ] 4-1: _Introdução - JavaScript_
 - [ ] 4-2: _JavaScript - Array e loop For_
@@ -35,7 +35,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 4-5: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [ ] 4-6: _Projeto - Playground Functions_
 
-##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
+##### Section 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/carlosbaptistaa/trybe-exercises/tree/main/01-fundamentos/section-05-javascript-dom-eventos-e-web-storage)
 
 - [ ] 5-1: _JavaScript - DOM e seletores_
 - [ ] 5-2: _JavaScript - Trabalhando com elementos_
@@ -44,7 +44,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 5-5: _Projeto - Arte com Pixels_
 - [ ] 5-6: _Projeto Bônus_
 
-##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
+##### Section 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/carlosbaptistaa/trybe-exercises/tree/main/01-fundamentos/section-06-html-e-css-forms-flexbox-e-responsivo)
 
 - [ ] 6-1: _HTML & CSS - Forms_
 - [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
@@ -53,14 +53,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 6-5: _CSS Responsivo - Mobile First_
 - [ ] 6-6: _Projeto Trybewarts_
 
-##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
+##### Section 7: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/carlosbaptistaa/trybe-exercises/tree/main/01-fundamentos/section-07-introducao-a-javascript-es6-e-testes-unitarios)
 
 - [ ] 7-1: _Fluxo de exceções e manipulação de objetos_
 - [ ] 7-2: _Primeiros passos em Jest_
 - [ ] 7-3: _Matchers e cobertura de código_
 - [ ] 7-4: _Projeto - JavaScript Testes Unitários_
 
-##### Bloco 8: Higher Order Functions do JavaScript ES6
+##### Section 8: [Higher Order Functions do JavaScript ES6](https://github.com/carlosbaptistaa/trybe-exercises/tree/main/01-fundamentos/section-08-higher-order-functions-do-javascript-es6)
 
 - [ ] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions_
 - [ ] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_

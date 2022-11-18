@@ -8,7 +8,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Fundamentos do Desenvolvimento Web :white_check_mark:
 
-##### Section 1: Introdução - [Unix & Shell](https://github.com/carlosbaptistaa/trybe-exercises/tree/main/01-fundamentos/section-01-unix-bash)
+##### Section 1: [Unix & Shell](https://github.com/carlosbaptistaa/trybe-exercises/tree/main/01-fundamentos/section-01-unix-bash)
 
 - [x] 1-1: _Unix & Bash- Part 1_
 - [ ] 1-2: _Unix & Bash- Part 2_

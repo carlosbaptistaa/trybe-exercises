@@ -11,12 +11,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Section 1: [Unix & Shell](https://github.com/carlosbaptistaa/trybe-exercises/tree/main/01-fundamentos/section-01-unix-bash)
 
 - [x] 1-1: _Unix & Bash- Part 1_
-- [ ] 1-2: _Unix & Bash- Part 2_
+- [x] 1-2: _Unix & Bash- Part 2_
 
 ##### Section 2: [Git & GitHub](https://github.com/carlosbaptistaa/trybe-exercises/tree/main/01-fundamentos/section-02-git-e-github)
 
-- [ ] 2-1: _O que é e para que serve?_
-- [ ] 2-2: _Entendendo os comandos_
+- [x] 2-1: _O que é e para que serve?_
+- [x] 2-2: _Entendendo os comandos_
 
 ##### Section 3: [Introdução à HTML & CSS](https://github.com/carlosbaptistaa/trybe-exercises/tree/main/01-fundamentos/section-03-introducao-a-html-e-css)
 

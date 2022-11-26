@@ -20,16 +20,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Section 3: [Introdução à HTML & CSS](https://github.com/carlosbaptistaa/trybe-exercises/tree/main/01-fundamentos/section-03-introducao-a-html-e-css)
 
-- [ ] 3-1: _HTML & CSS - Estruturas de página_
-- [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
-- [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
-- [ ] 3-4: _HTML Semântico_
-- [ ] 3-5: _Projeto - Lessons Learned_
+- [x] 3-1: _HTML & CSS - Estruturas de página_
+- [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
+- [x] 3-3: _HTML & CSS - Seletores e posicionamento_
+- [x] 3-4: _HTML Semântico_
+- [x] 3-5: _Projeto - Lessons Learned_
 
 ##### Section 4: [Introdução à JavaScript](https://github.com/carlosbaptistaa/trybe-exercises/tree/main/01-fundamentos/section-04-introducao-a-javascript)
 
-- [ ] 4-1: _Introdução - JavaScript_
-- [ ] 4-2: _JavaScript - Array e loop For_
+- [x] 4-1: _Introdução - JavaScript_
+- [x] 4-2: _JavaScript - Array e loop For_
 - [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 4-4: _JavaScript - Objetos e funções_
 - [ ] 4-5: _JavaScript ES6 - let, const, arrow functions e template literals_

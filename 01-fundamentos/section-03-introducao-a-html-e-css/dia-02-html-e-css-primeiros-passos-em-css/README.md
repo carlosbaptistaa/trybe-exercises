@@ -7,6 +7,7 @@
 ### Atualizar seu Portfólio Web no GitHub Pages.
 
 ### Requisitos
+
 #### Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 
 ####  Defina fontes diferentes para o seu nome e para a descrição que você criou;

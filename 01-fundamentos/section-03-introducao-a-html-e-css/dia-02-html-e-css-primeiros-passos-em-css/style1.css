@@ -23,3 +23,8 @@ h1, h3, .trybe-green {
     font-weight: 600;
     font-size: 28px;
 }
+
+.picture {
+    border-radius: 100%;
+    width: 100px;
+}

@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: rgb(253, 251, 251);
+    color: rgba(4, 0, 0, 0.902);
+    line-height: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+  }
+  
+  #meu_nome {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+  }
+  
+  #cabecalho {
+    background-color: rgb(47, 118, 79);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+  }
+  
+  #titulo {
+    color: rgb(225, 225, 28);
+    text-align: center;
+    margin: 5px;
+  }
+  
+  #minha_foto {
+    width: 250px;
+    border-radius: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+  
+  #meu_nome {
+    text-align: center;
+  }
+  
+  #minha_atividade {
+    text-align: center;
+  }
+  
+  #sobre_mim {
+    margin: auto;
+    padding: 50%;
+  }
+  
+  #secao_licoes_aprendidas {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #licoes_aprendidas {
+    margin-left: 30px;
+  }
+  
+  .comunicacao {
+    font-size: 20px;
+  }
+  
+  .lideranca {
+    font-size: 20px;
+  }
+  
+  .proatividade {
+    font-size: 20px;
+  }
+  
+  .github {
+    font-size: 20px;
+  }
+  
+  .html {
+    font-size: 20px;
+  }
+  
+  .css {
+    font-size: 20px;
+  }
+  
+  .slack {
+    font-size: 20px;
+  }
+  
+  .paciencia {
+    font-size: 20px;
+  }
+  
+  .inteligencia_emocional {
+    font-size: 20px;
+  }
+  
+  
+  #secao_licoes_a_aprender {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #licoes_a_aprender {
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  
+  #tabela_hard_skills {
+    background-color: rgb(225, 225, 28);
+    display: inline-block;
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+  }
+  
+  #tabela_soft_skills {
+    background-color: rgb(47, 118, 79);
+    display: inline-block;
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+  }
+  
+  #artigo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #titulo_artigo {
+    margin-top: 25px;
+  }
+  
+  #rodape {
+    background-color: rgb(47, 118, 79);
+    color: rgb(225, 225, 28);
+    text-align: center;
+    font-size: large;
+  }
+  
+  #meu_artigo {
+    margin: auto;
+    padding: 1%;
+    border: 1ch;
+  }
+  
+  #aside {
+    margin: auto;
+    padding: 1%;
+    border: 1ch;
+    margin-top: 10px;
+  }
+  
+  #links_associados {
+    margin-top: 10px;
+    margin-bottom: auto;
+  }  

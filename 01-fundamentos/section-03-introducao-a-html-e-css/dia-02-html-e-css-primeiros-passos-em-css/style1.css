@@ -10,3 +10,16 @@ p, li {
 h1, h3, .trybe-green {
     color: #11a36a
 }
+
+.hero-title {
+    color: #0a7e51;
+    line-height: 55px;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.section-title {
+    line-height: 45px;
+    font-weight: 600;
+    font-size: 28px;
+}

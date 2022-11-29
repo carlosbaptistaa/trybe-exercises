@@ -1,4 +1,4 @@
-const currentHour = 15;
+const currentHour = 5;
 let message;
 
 if (currentHour >= 22){

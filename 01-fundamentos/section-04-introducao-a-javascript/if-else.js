@@ -2,7 +2,7 @@
 //senao se
 //else - senão
 
-let trybe = 19.40;
+let trybe = 20.02;
 
 
 if (trybe >= 14 && trybe < 14.40) {

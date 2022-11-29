@@ -2,7 +2,7 @@
 // Nesse exemplo o "switch/case" deverá imprimir no terminal a classificação de quais filmes podem ser assistidos
 // de acordo com a faixa etária de uma pessoa.
 
-let faixaEtaria = 'adulto';
+let faixaEtaria = 'idoso';
 
 switch (faixaEtaria) {
   case 'adolescente':

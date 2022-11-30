@@ -7,6 +7,7 @@ switch (pecaXadrez) {
     case "bispo":
         console.log("Ande pela diagonal");
         break;
+        
     case "peao":
         console.log("Ande 1 para frente");
         break;

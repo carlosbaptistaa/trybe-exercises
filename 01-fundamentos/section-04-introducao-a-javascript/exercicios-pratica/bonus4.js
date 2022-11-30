@@ -42,10 +42,23 @@ O último cálculo para conseguir o salário líquido é R$ 2.670,00 - R$ 57,45 
 
 Resultado: R$ 2.612,55. */ 
 
-const salarioBruto = 1000;
+const salarioBruto = 1557;
 const aliquota8 = 0.08;
+const aliquota9 = 0.09;
+const aliquota11 = 0.11;
+const aliquotaMax = 570.88;
 
-const newSalary = salarioBruto - (salarioBruto * aliquota8);
+const newSalary8 = salarioBruto - (salarioBruto * aliquota8 );
+const newSalary9 = salarioBruto - (salarioBruto * aliquota9 );
+const newSalary11 = salarioBruto - (salarioBruto * aliquota11 );
+const newSalaryMax = salarioBruto - (salarioBruto * aliquotaMax );
 
-if (salarioBruto <= 1556.94)
-console.log("Foi debitado 8% do seu salário para o INSS, seu novo salário é R$ " + newSalary);
+if (salarioBruto <= 1556.94) {
+console.log("Foi debitado 8% do seu salário para o INSS, seu novo salário é R$ " + newSalary8);
+}
+
+else if (salarioBruto >= 1556.95 && salarioBruto <= 2594.92) {
+console.log("Foi debitado 9% do seu salário para o INSS, seu novo salário é R$ " + newSalary9);
+}
+
+

@@ -31,7 +31,7 @@ O salário bruto está entre R$ 2.594,93 e R$ 5.189,82, então sua alíquota par
 
 Para descobrir o salário-base, subtraia do salário bruto a alíquota do INSS: R$ 3.000,00 - R$ 330,00 = R$ 2.670,00.
 
-Para pegar o valor do IR, temos um salário (já deduzido o INSS) entre R$ 1.903,99 e 2.826,65, sendo a alíquota, então, de 7.5%, com parcela de R$ 142,80 a deduzir do imposto. Assim, temos:
+Para pegar o valor do IRn bn,~11, temos um salário (já deduzido o INSS) entre R$ 1.903,99 e 2.826,65, sendo a alíquota, então, de 7.5%, com parcela de R$ 142,80 a deduzir do imposto. Assim, temos:
 
 R$ 2.670,00: salário com INSS já deduzido;
 7.5%: alíquota de imposto de renda;
@@ -41,3 +41,11 @@ Fazendo a conta, temos: (7,5% de R$ 2.670,00) - R$ 142,80 = R$ 57,45
 O último cálculo para conseguir o salário líquido é R$ 2.670,00 - R$ 57,45 (salário-base - valor IR) = R$ 2.612,55.
 
 Resultado: R$ 2.612,55. */ 
+
+const salarioBruto = 1000;
+const aliquota8 = 0.08;
+
+const newSalary = salarioBruto - (salarioBruto * aliquota8);
+
+if (salarioBruto <= 1556.94)
+console.log("Foi debitado 8% do seu salário para o INSS, seu novo salário é R$ " + newSalary);

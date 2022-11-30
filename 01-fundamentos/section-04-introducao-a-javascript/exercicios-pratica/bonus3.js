@@ -7,20 +7,17 @@
 //O lucro de um produto é o resultado da subtração do valor de venda pelo custo do mesmo, sendo que o imposto de 20% também faz parte do valor de custo.
 
 //valorCustoTotal = valorCusto + impostoSobreOCusto;
-//ucro = valorVenda - valorCustoTotal (lucro de um produto);
+//lucro = valorVenda - valorCustoTotal (lucro de um produto);
 
-const custoProduto = 20;
-const valorVenda = 40;
+const custoProduto = 50;
+const valorVenda = 82;
 const imposto = 0.2;
 
 let lucro =  (valorVenda - (custoProduto - (custoProduto * imposto))) * 1000;
 
-console.log(lucro);
-
-if (custoProduto < 0 || valorVenda < 0){
-    console.log("Erro, valor inválido!!!");
+if (valorVenda < 0 || custoProduto < 0){
+    console.log("Número inválido!!!")
+} else{
+    console.log("O lucro foi de R$ " + lucro)
 }
-
-
-
 

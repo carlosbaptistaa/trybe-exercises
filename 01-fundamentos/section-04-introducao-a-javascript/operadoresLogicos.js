@@ -1,3 +1,5 @@
+//Operador AND
+
 const comida = 'pão na chapa';
 const bebida = 'cafézinho';
 if (bebida === 'cafézinho' && comida === 'pão na chapa') {

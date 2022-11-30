@@ -42,23 +42,34 @@ O último cálculo para conseguir o salário líquido é R$ 2.670,00 - R$ 57,45 
 
 Resultado: R$ 2.612,55. */ 
 
-const salarioBruto = 1557;
-const aliquota8 = 0.08;
-const aliquota9 = 0.09;
-const aliquota11 = 0.11;
-const aliquotaMax = 570.88;
 
-const newSalary8 = salarioBruto - (salarioBruto * aliquota8 );
-const newSalary9 = salarioBruto - (salarioBruto * aliquota9 );
-const newSalary11 = salarioBruto - (salarioBruto * aliquota11 );
-const newSalaryMax = salarioBruto - (salarioBruto * aliquotaMax );
+let aliquotINSS;
+let aliquotIR;
 
-if (salarioBruto <= 1556.94) {
-console.log("Foi debitado 8% do seu salário para o INSS, seu novo salário é R$ " + newSalary8);
+const grossSalary = 3000.00;
+
+if (grossSalary <= 1556.94) {
+  aliquotINSS = grossSalary * 0.08;
+} else if (grossSalary <= 2594.92) {
+  aliquotINSS = grossSalary * 0.09;
+} else if (grossSalary <= 5189.82) {
+  aliquotINSS = grossSalary * 0.11;
+} else {
+  aliquotINSS = 570.88;
 }
 
-else if (salarioBruto >= 1556.95 && salarioBruto <= 2594.92) {
-console.log("Foi debitado 9% do seu salário para o INSS, seu novo salário é R$ " + newSalary9);
-}
+const baseSalary = grossSalary - aliquotINSS;
 
+if (baseSalary <= 1903.98) {
+  aliquotIR = 0;
+} else if (baseSalary <= 2826.65) {
+  aliquotIR = (baseSalary * 0.075) - 142.80;
+} else if (baseSalary <= 3751.05) {
+  aliquotIR = (baseSalary * 0.15) - 354.80;
+} else if (baseSalary <= 4664.68) {
+  aliquotIR = (baseSalary * 0.225) - 636.13;
+} else {
+  aliquotIR = (baseSalary * 0.275) - 869.36;
+};
 
+console.log("Salário: " + (baseSalary - aliquotIR));

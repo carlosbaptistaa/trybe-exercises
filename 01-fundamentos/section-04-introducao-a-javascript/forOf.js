@@ -14,6 +14,7 @@ for (let letter of word) {
 let arrOfNumbers = [10, 20, 30];
 for (let sum of arrOfNumbers) {
   sum += 1;
-  console.log(sum);
+  console.log(sum); //iteração dos valores do number arrOfNumbers e somando um valor a cada elemento do array.
 }
-//iteração dos valores do number arrOfNumbers e somando um valor a cada elemento do array.
+console.log(arrOfNumbers);
+//o for/of não altera o array, mas traz valores de dentro, e adiciona 1 a soma.

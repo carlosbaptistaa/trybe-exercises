@@ -1,10 +1,13 @@
-function maiorNumero (primeiroNum, segundoNum) {
-    if (primeiroNum > segundoNum) {
-        return 'O maior número é o: ' + primeiroNum;
-    }else if (primeiroNum < segundoNum){
-        return 'O maior número é o: ' + segundoNum;
+const a = 100;
+const b = 100;
+
+function maiorNumero () {
+    if (a > b) {
+        return 'O maior número é o: ' + a;
+    }else if (a < b){
+        return 'O maior número é o: ' + b;
     } else {
         return 'Empate, os números sãao iguais!!!'
     }
 }
-    console.log(maiorNumero (100, 100));
+    console.log(maiorNumero(a, b));

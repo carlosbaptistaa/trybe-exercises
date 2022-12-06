@@ -8,4 +8,4 @@ let diasDaSemana = {
     7: 'sábado',
   };
   
-  console.log(diasDaSemana['2']); // domingo
+  console.log(diasDaSemana['2']); // Bracket Notation , qnd uso as [].

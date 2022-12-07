@@ -9,7 +9,7 @@ function indiceDoMenor(array) {
         indiceMenor = indice;
       }
     }
-  
+   
     return indiceMenor;
   }
   

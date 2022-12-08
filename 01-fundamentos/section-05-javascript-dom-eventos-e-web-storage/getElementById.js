@@ -1,5 +1,11 @@
-document.getElementById("page-title").innerText = "Branca de Neve"
+const paragraph = document.getElementById("paragraph");
+paragraph.style.color = "red";
 
-document.getElementById("paragraph").innerText = "Este é o filme da princesa que encontra 7 anões na floresta."
+const title = document.getElementById("page-title");
+title.innerText = "Branca de Neve"
 
-document.getElementById("subtitle").innerText = "e os 7 anões" 
+const secondTitle = document.getElementById("second-paragraph");
+secondTitle.innerText = "Este filme é o da princesa que possui uma madrasta invejosa."
+
+const subtitulo = document.getElementById("subtitle");
+subtitulo.innerText = "e os 7 anões."

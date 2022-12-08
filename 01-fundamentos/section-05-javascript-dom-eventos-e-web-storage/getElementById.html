@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Trybe DOM</title>
-    </head>
-    <body>
-        <div>
-            Div com conteúdo <strong>para</strong> ser alterado através de sua ID.
-        </div>
-    <p>Parágrafo</p>
-    </body>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      
+      const title = document.getElementById("page-title");
+      title.innerText = "Branca de Neve"
+
+      const secondTitle = document.getElementById("second-paragraph");
+      secondTitle.innerText = "Este filme é o da princesa que possui uma madrasta invejosa."
+
+      const subtitulo = document.getElementById("subtitle");
+      subtitulo.innerText = "e os 7 anões."
+    </script>
+  </body>
 </html>

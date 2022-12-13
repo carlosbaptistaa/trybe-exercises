@@ -3,13 +3,24 @@
   <body>
     <header>
       <h2 id="page-title">Título</h2>
-      <p class="paragraphs">Dê uma cor para este parágrafo!</p>
+
+      <p class="para" id="paragraph">Dê uma cor para este parágrafo!</p>
+
       <h4 id="subtitle">Subtítulo</h4>
-      <p class="paragraphs">Segundo parágrafo!</p>
+
+      <p class="para" id="second-paragraph">Segundo parágrafo!</p>
+
     </header>
-    <script src="getElementsByClassName.js">
-     const paragraphs = document.getElementById("paragraphs");
-      paragraphs.style.color = "red";
+    <script>
+      
+      const paragrafos = document.getElementsByClassName("para");
+
+      paragrafos[0].style.color = "red";
+
+      const subtitulo = document.getElementsByTagName("h4");
+
+      subtitulo[0].style.color = "green";
+
     </script>
   </body>
 </html>

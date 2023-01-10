@@ -10,7 +10,7 @@
 <body>
   <section class="header">
     <div class="header-elements">
-      <img src="spotify.png" alt="Logo da Spotify">
+      <img src="./spotify.png" alt="Logo da Spotify">
       <h1>Junior Web Developer</h1>
       <h6>SÃO PAULO - BRAZIL / ENGINEERING – EXPERIENCE</h3>
     </div>
@@ -45,9 +45,32 @@
         <input type="email" name="e-mail" id="email">
       </div>
 
+      <div class="inputs">
+        <label for="birth-date">Birth Date</label>
+        <input type="date" name="birth" id="birth-date">
+      </div>
 
-      <button type="submit">SUBMIT APPLICATION</button>
+      <div class="inputs">
+        <label for="informations">ADDITIONAL INFORMATION</label>
+        <textarea name="other-info" id="informations" cols="30" rows="10" placeholder="alguma coisa"></textarea>
+      </div>
+
+      <div class="inputs">
+        <label for="location">Location</label>
+        <select name="locate" id="location">
+          <option value="NULL">Selecione...</option>
+          <option value="BR">BRAZIL</option>
+          <option value="AR">ARGENTINA</option>
+          <option value="CH">CHILE</option>
+          <option value="UR">URUGUAI</option>
+          <option value="ZM">ZIMBABUE</option>
+        </select>
+      </div>
+
+      <button type="submit" id="btn-submit">SUBMIT APPLICATION</button>
+      <button type="reset">RESET</button>
     </form>
   </main>
 </body>
+<script src="./script.js"></script>
 </html>

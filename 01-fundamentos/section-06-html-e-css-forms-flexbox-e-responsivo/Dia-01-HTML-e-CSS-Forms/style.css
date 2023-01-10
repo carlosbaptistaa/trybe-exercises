@@ -1,15 +1,7 @@
-.header {
-    background-color: blue;
+.header-elements {
+    background-color: pink;
   }
   
-  .header-elements {
-    background-color: crimson;
-  }
-  
-  .header-elements img {
-    height: 35px;
-  }
-  
-  .inputs {
-  
+.header-elements img {
+    height: 45px;
   }

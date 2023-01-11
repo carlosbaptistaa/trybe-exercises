@@ -9,10 +9,11 @@
 <body>
     <h1>Formulário Completo</h1>
 
-    <form action="" method="get" enctype="multipart/form-data" >
+    <form action="" method="GET" enctype="multipart/form-data" >
 
-     <label for="">Nome Completo:
-        <input type="text" name="nome" id="nome-completo" placeholder="Digite seu nome" required> </label> <br><br>
+     <label for="nome-completo">Nome Completo:
+        <input type="text" name="nome" id="nome-completo" placeholder="Digite seu nome" required>
+    </label> <br><br>
 
     <label for="input-email">E-mail:
         <input type="email" name="email" id="input-email" placeholder="Digite seu e-mail" required> </label> <br><br>
@@ -29,9 +30,10 @@
     <p>Selecione sua foto:</p>
     <input type="file" name="foto" id="foto-perfil">
 
-    </form> <br><br>
+    <br><br>
 
     <p>Comidas favoritas:</p>
+    
     <label for="comida-1">
         <input type="radio" id="comida-1" name="comida-favorita" value="pizza" checked> Pizza
     </label>
@@ -46,16 +48,26 @@
 
     <label for="comida-4">
         <input type="radio" id="comida-4" name="comida-favorita" value="Pão de queijo"> Pão de queijo
-    </label> <br><br>
+    </label>
+    
+    <label for="comida-5">
+        <input type="radio" id="comida-5" name="comida-favorita" value="Outra"> Outra
+    </label><br><br>
 
     <p>Escreva algo sobre você</p>
     <textarea name="sobre-mim" id="textarea-1" cols="30" rows="5"></textarea> <br><br>
 
     <p>Digite sua senha:</p>
     <label for="input-senha">
-        <input type="password" name="senha" id="input-senha" required placeholder="Digite sua senha"> 
-    </label>
+        <input type="password" name="senha" id="input-senha" required placeholder="Digite sua senha">
+    </label><br><br>
 
+    <label for="checkbox-noticias">
+        <input type="checkbox" name="promocoes" id="checkbox-noticias">Deseja receber promoções incríveis ?
+    </label> <br><br>
 
+    <button type="submit">Enviar Formulário</button>
+
+    </form>
 </body>
 </html>

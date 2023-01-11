@@ -1,16 +1,16 @@
-const INPUT_TEXT = document.querySelector("#input-text");
-const INPUT_CHECKBOX = document.querySelector("#input-checkbox");
-const HREF_LINK = document.querySelector("#href");
+const input_text = document.querySelector("#input-text");
+const input_checkbox = document.querySelector("#input-checkbox");
+const href_link = document.querySelector("#href");
 
-HREF_LINK.addEventListener('click' , (event) => {
+href_link.addEventListener('click' , (event) => {
     event.preventDefault();
 });
 
-INPUT_CHECKBOX.addEventListener('click' , (event) => {
+input_checkbox.addEventListener('click' , (event) => {
     event.preventDefault();
 });
 
-INPUT_TEXT.addEventListener('keypress', (event) => {
+input_text.addEventListener('keypress', (event) => {
     const character = event.key;
     if (character !== 'a') {
         event.preventDefault();

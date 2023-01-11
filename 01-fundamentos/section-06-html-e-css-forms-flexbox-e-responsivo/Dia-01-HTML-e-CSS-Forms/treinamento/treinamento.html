@@ -7,7 +7,7 @@
     </head>
     <body>
     <h1>Formulário</h1>
-    
+
         <form action="" method="GET">
           <input type="checkbox" value="fut" name="esporte" checked>Futebol
           <input type="checkbox" value="fut" name="esporte" >Voleibol
@@ -17,12 +17,25 @@
         <br>
         <br>
 
-            <input type="radio" id="hub1" name="hub" value="sp">São Paulo
-            <input type="radio" id="hub2" name="hub" value="sp">Rio de Janeiro
-            <input type="radio" id="hub3" name="hub" value="sp">Minas Gerais
-            <input type="radio" id="hub4" name="hub" value="sp">Espírito Santo
+            <label for="hub1">
+                <input type="radio" id="hub1" name="hub" value="sp">São Paulo
+            </label>
+            <label for="hub2">
+                <input type="radio" id="hub2" name="hub" value="sp">Rio de Janeiro</label>
+            <label for="hub3">
+                <input type="radio" id="hub3" name="hub" value="sp">Minas Gerais</label>
+            <label for="hub4">
+                <input type="radio" id="hub4" name="hub" value="sp">Espírito Santo</label>
+            <br>
+            <br>
 
-        
+                <select name="estado" id="dropdown-estado">
+                    <option value="SP">Rio Grande do Norte</option>
+                    <option value="SP">Bahia</option>
+                    <option value="SP">Fortaleza</option>
+                    <option value="SP">Maranhão</option>
+                </select>
+
         </form>
 
     </body>

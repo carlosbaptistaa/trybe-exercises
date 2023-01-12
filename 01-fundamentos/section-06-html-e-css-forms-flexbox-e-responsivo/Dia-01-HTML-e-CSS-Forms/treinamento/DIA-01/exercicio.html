@@ -53,13 +53,18 @@
         <input type="checkbox" value="termo-2" name="termos">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
     </label><br><br>
 
-    <button type="submit">Enviar</button>
+    <button type="submit" id="submit">Enviar</button>
     <button type="reset">Apagar</button>
 
     </form>
     
     <script>
-        
+
+        const submit_text = document.querySelector("#submit");
+
+    submit_text.addEventListener('click' , (event) => { event.preventDefault();
+});
+
     </script>
 </body>
 </html>

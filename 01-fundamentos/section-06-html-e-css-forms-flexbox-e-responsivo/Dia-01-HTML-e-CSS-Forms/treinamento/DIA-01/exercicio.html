@@ -11,12 +11,11 @@
     
     <form action="" method="GET" enctype="multipart/form-data" >
 
-    <label for="nome-completo" >Nome Completo
-        <input type="text" name="texto" id="nome-completo" placeholder="Digite o seu nome" required>
+    <label for="nome-completo" >Nome Completo        <input type="text" name="texto" id="nome-completo" placeholder="Digite o seu nome" minlength="10" maxlength="40" required>
     </label><br><br>
 
     <label for="e-mail" >E-mail
-        <input type="email" name="e-mail" id="e-mail" placeholder="Digite o seu e-mail" required>
+        <input type="email" name="e-mail" id="e-mail" placeholder="Digite o seu e-mail" minlength="10" maxlength="50" required>
     </label><br><br>
 
     <p>Destino Preferido: </p>
@@ -38,7 +37,7 @@
 
     <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
 
-    <textarea name="sobre" id="textarea-1" cols="30" rows="10"></textarea>
+    <textarea name="sobre" id="textarea-1" cols="30" rows="10" maxlength="500"></textarea>
 
     <p>Qual a melhor data para realizar a sua viagem?</p>
     <label for="data">Data:
@@ -53,7 +52,9 @@
         <input type="checkbox" value="termo-2" name="termos">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
     </label><br><br>
 
-    <button type="submit" class="enviar" name="" id="">Enviar</button>
+    <button type="submit">Enviar</button>
+    <button type="reset">Apagar</button>
+
 
     </form>
     

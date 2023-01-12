@@ -4,60 +4,71 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <title>Vaga Spotify</title>
 </head>
 <body>
   <section class="header">
     <div class="header-elements">
-      <img src="./spotify.png" alt="Logo da Spotify">
+      <img src="spotify.png" alt="Logo da Spotify">
       <h1>Junior Web Developer</h1>
-      <h6>SÃO PAULO - BRAZIL / ENGINEERING – EXPERIENCE</h3>
+      <h5>SÃO PAULO - BRAZIL / ENGINEERING – EXPERIENCE</h5>
     </div>
   </section>
 
-  <main>
+  <main class="main-content">
     <form action="" method="get">
       <h5>SUBMIT YOUR APPLICATION</h5>
 
-      <div class="inputs">
-        <label for="resume">Resume/CV</label>
-        <input type="file" name="resume" id="resume">
+      <div class="inputs mb-3 outra maisum">
+        <label for="resume" class="form-label ">Resume/CV</label>
+        <input type="file" name="resume" id="resume" class="form-control">
       </div>
 
       <div class="inputs">
-        <label for="full-name120">Full Name</label>
-        <input type="text" name="full-name" id="full-name120" required>
+        <label for="full-name120" class="form-label">Full Name</label>
+        <input type="text" name="full-name" id="full-name120" required class="form-control">
       </div>
 
       <div class="inputs">
-        <label for="pronouns">Pronouns</label>
-        <label for="he-him">He/him</label>
-        <input type="checkbox" name="he-him" id="he-him">
-        <label for="she-her">She/her</label>
-        <input type="checkbox" name="she-her" id="she-her">
-        <label for="they-them">They/them</label>
-        <input type="checkbox" name="they-them" id="they-them">
+        <p>Pronouns</p>
+        <div class="form-check form-switch form-check-inline">
+          <input type="checkbox" name="he-him" id="he-him" class="form-check-input">
+          <label for="he-him" class="form-check-label">He/him</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input type="checkbox" name="she-her" id="she-her" class="form-check-input">
+          <label for="she-her" class="form-check-label">She/her</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input type="checkbox" name="they-them" id="they-them" class="form-check-input">
+          <label for="they-them" class="form-check-label">They/them</label>
+        </div>
       </div>
 
       <div class="inputs">
-        <label for="email">Email</label>
-        <input type="email" name="e-mail" id="email">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" name="e-mail" id="email" class="form-control">
       </div>
 
       <div class="inputs">
-        <label for="birth-date">Birth Date</label>
-        <input type="date" name="birth" id="birth-date">
+        <label for="birth-date" class="form-label">Birth Date</label>
+        <input type="date" name="birth" id="birth-date" class="form-control">
+      </div>
+
+      <hr>
+
+      <h5>ADDITIONAL INFORMATION</h5>
+
+      <div class="form-floating">
+        <textarea name="other-info" id="informations" cols="30" rows="10" placeholder="alguma coisa" class="form-control"></textarea>
+        <label for="floatingTextarea">About you</label>
       </div>
 
       <div class="inputs">
-        <label for="informations">ADDITIONAL INFORMATION</label>
-        <textarea name="other-info" id="informations" cols="30" rows="10" placeholder="alguma coisa"></textarea>
-      </div>
-
-      <div class="inputs">
-        <label for="location">Location</label>
-        <select name="locate" id="location">
+        <label for="location" class="form-label">Location</label>
+        <select name="locate" id="location" class="form-select">
           <option value="NULL">Selecione...</option>
           <option value="BR">BRAZIL</option>
           <option value="AR">ARGENTINA</option>
@@ -67,8 +78,19 @@
         </select>
       </div>
 
-      <button type="submit" id="btn-submit">SUBMIT APPLICATION</button>
-      <button type="reset">RESET</button>
+      <div class="inputs form-check">
+        <label for="consent" class="form-label">
+          <input type="checkbox" name="consent" id="consent" class="form-check-input">
+          Yes, Spotify can contact me about future job opportunities for up to 3 years.
+        </label>
+      </div>
+
+      <div class="buttons">
+        <button type="submit" id="btn-submit" class="btn btn-success">SUBMIT APPLICATION</button>
+        <button type="reset" class="btn btn-danger">NÃO CLIQUE AQUI</button>
+      </div>
+
+      <input type="range" name="" id="">
     </form>
   </main>
 </body>
